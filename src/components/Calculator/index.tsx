@@ -57,6 +57,7 @@ export const Calculator = (props: CalcProps) => {
           <HorasDia
             id="horaDia"
             type="text"
+            placeholder="0"
             value={valorHoraDia ? valorHoraDia : ''}
             onChange={handleHoraDiaChange}
           />
@@ -66,6 +67,7 @@ export const Calculator = (props: CalcProps) => {
           <Dias
             id="dias"
             type="text"
+            placeholder="0"
             value={valorDia ? valorDia : ''}
             onChange={handleDiaChange}
           />
