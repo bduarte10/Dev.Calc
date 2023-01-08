@@ -7,7 +7,7 @@ import { GlobalStyle } from './styles/global'
 import { darkTheme, lightTheme } from './styles/theme'
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true)
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode)

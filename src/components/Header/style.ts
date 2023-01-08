@@ -8,6 +8,9 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   background-color: ${(props) => props.theme.primary};
+  @media (max-width: 768px) {
+    padding: 0rem 30px;
+  }
 `
 export const Nav = styled.nav`
   position: relative;

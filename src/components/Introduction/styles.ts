@@ -30,6 +30,6 @@ export const SubTitle = styled.p`
   font-size: 1.5rem;
   color: ${(props) => props.theme.subtext};
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 `

@@ -26,7 +26,7 @@ export const Span = styled.span<SpanProps>`
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: ${(props) => (props.isDarkMode ? '#6c5ce7' : '#fff')};
+  background: ${(props) => (props.isDarkMode ? '#6c5ce7' : '#939393')};
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05), inset 0 0 2px 0 rgba(0, 0, 0, 0.05);
   left: 2px;
   transition: left 0.2s;
