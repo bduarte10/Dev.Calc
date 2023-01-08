@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import Header from './components/Header'
-import { Content } from './components/Content'
+import { Introduction } from './components/Introduction'
 
 import { GlobalStyle } from './styles/global'
 import { darkTheme, lightTheme } from './styles/theme'
@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
       <Header toggleDarkMode={toggleDarkMode} />
-      <Content />
+      <Introduction />
       {/* <Calculadora/> */}
       <GlobalStyle />
     </ThemeProvider>
