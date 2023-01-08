@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
+import { Calculator } from './components/Calculator'
 import Header from './components/Header'
 import { Introduction } from './components/Introduction'
 
@@ -16,7 +17,7 @@ function App() {
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
       <Header toggleDarkMode={toggleDarkMode} />
       <Introduction />
-      {/* <Calculadora/> */}
+      <Calculator isDarkMode={isDarkMode} />
       <GlobalStyle />
     </ThemeProvider>
   )

@@ -33,6 +33,6 @@ export const Span = styled.span<SpanProps>`
 
   /* Quando o input estiver checked, deslocar o span para a direita */
   input:checked + & {
-    left: calc(100% - 2px - 30px);
+    left: calc(100% - 32px);
   }
 `
