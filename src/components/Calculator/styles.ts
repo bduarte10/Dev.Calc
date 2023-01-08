@@ -6,7 +6,7 @@ interface CalcProps {
 export const FormContainer = styled.form`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px;
+  padding: 40px 60px;
   gap: 4rem;
   border-radius: 30px;
   background-color: ${(props) => props.theme.tertiary};

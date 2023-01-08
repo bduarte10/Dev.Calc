@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
   width: 100%;
-  padding: 5rem 40px;
+  padding: 3.5rem 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
