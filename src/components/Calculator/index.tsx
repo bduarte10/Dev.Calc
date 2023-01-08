@@ -47,7 +47,8 @@ export const Calculator = (props: CalcProps) => {
           <ValorHora
             id="valorHora"
             type="text"
-            value={valorHora}
+            placeholder="0"
+            value={valorHora ? valorHora : ''}
             onChange={handleValorHoraChange}
           />
         </InputDiv>

@@ -61,6 +61,9 @@ export const ValorHora = styled.input`
   font-size: 3rem;
   font-weight: 600;
   color: white;
+  ::placeholder {
+    color: white;
+  }
 `
 export const HorasDia = styled.input`
   height: 2.5rem;
@@ -76,6 +79,9 @@ export const HorasDia = styled.input`
   font-size: 3rem;
   font-weight: 600;
   color: white;
+  ::placeholder {
+    color: white;
+  }
 `
 export const Dias = styled.input`
   height: 2.5rem;
@@ -91,6 +97,9 @@ export const Dias = styled.input`
   font-size: 3rem;
   font-weight: 600;
   color: white;
+  ::placeholder {
+    color: white;
+  }
 `
 
 export const ResultContainer = styled.div`
