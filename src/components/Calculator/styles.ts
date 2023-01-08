@@ -42,6 +42,9 @@ export const InputDiv = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    @media (max-width: 768px) {
+      padding: 0.5rem 1.2rem;
+    }
   }
 `
 export const ValorHora = styled.input`
@@ -101,7 +104,7 @@ export const InputResult = styled.div`
   position: relative;
   label {
     position: absolute;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.2rem;
     top: -20px;
     left: 20px;
     height: 3.5rem;
@@ -130,5 +133,6 @@ export const Result = styled.input<CalcProps>`
   border-radius: 20px;
   @media (max-width: 768px) {
     width: 100%;
+    font-size: 2.5rem;
   }
 `
